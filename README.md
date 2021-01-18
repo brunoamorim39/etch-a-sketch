@@ -1,0 +1,1 @@
+This project's intent is to serve as an exercise for practicing DOM manipulation. This is a browser version of a primitive etch-a-sketch.
