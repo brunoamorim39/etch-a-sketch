@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 100vw;
+    height: 42vw;
+}
+
+footer {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.reset {
+    padding: 5px 16px;
+    font-size: 16px;
+    background-color: hsl(4, 77%, 55%);
+    color: #c9c9c9;
+    border: none;
+    margin-top: -5px;
+}
+
+.reset:hover {
+    box-shadow: 0 0 10px 2px gray;
+    background-color: hsl(4, 80%, 40%);
+}
+
+.reset:active {
+    transform: translateY(2px);
+}
